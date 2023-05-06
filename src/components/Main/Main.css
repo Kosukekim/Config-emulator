@@ -1,0 +1,31 @@
+.main {
+    flex: 3;
+    height: 100vh;
+}
+
+.mainWrapper {
+    padding: 20px;
+}
+
+.mainList {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.mainListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.mainListItem:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+
+}

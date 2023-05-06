@@ -1,0 +1,11 @@
+.page1Container{
+    display: flex;
+}
+
+.page1SidebarWrapper{
+    flex: 1;
+}
+
+.page1MainWrapper{
+    flex: 3;
+}

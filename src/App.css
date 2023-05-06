@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.itemContainers {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemWrapper{
+  width: 80%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.itemNameBox{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 5;
+}
+
+.itemValueBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 5;
+}
+
+.itemNameBoxText{
+  margin: auto;
+}
+
+.itemValueBoxText{
+  margin: auto;
+}
