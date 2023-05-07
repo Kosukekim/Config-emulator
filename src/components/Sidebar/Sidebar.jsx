@@ -1,6 +1,11 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import "./Sidebar.css"
 
+function clearStorage(){
+  sessionStorage.clear();
+  console.log("Temporal Storage is cleared.");
+}
+
 export default function Sidebar() {
   return (
     <div className='sidebar'>
@@ -26,6 +31,9 @@ export default function Sidebar() {
                 <span className="sidebarListItemText">Other Setting</span>
               </li>
             </Link>
+            <li className='sidebarClearButton'>
+              <span className='sidebarClearButtonText' onClick={clearStorage}>Clear Items</span>
+            </li>
           </ul>
           <hr className='sidebarHr'/>
         </div>

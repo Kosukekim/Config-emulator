@@ -30,11 +30,6 @@
 
 }
 
-.sidebarIcon {
-    font-size: 35px !important;
-    margin-right: 10px;
-}
-
 .sidebarListItemText {
     font-size: 20px;
     padding-top: 3px;
@@ -44,22 +39,20 @@
     margin: 20px 0;
 }
 
-.sidebarFriendList {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-.sidebarFriend {
+.sidebarClearButton{
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 2px;
+    border-color: black;
+    transition: .3s;
+    padding: 0 8px;
 }
 
-.sidebarFriendImg {
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right: 10px;
-    width: 32px;
-    height: 32px;
+.sidebarClearButton:hover{
+    background-color: blue;
+}
+.sidebarClearButton:hover .sidebarClearButtonText{
+    color: white;
 }
